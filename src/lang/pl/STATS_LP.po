@@ -1,0 +1,342 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_LP.R:113
+#: STATS_LP.R:286
+msgid "Linear Programming"
+msgstr ""
+"Programowanie liniowe"
+
+#: STATS_LP.R:114
+msgid "Linear Programming: Warnings"
+msgstr ""
+"Programowanie liniowe: Ostrzeżenia"
+
+#: STATS_LP.R:119
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Pakiet R %s jest wymagany, ale nie można było go wczytać."
+
+#: STATS_LP.R:124
+msgid "Either a constraint direction or a constraint direction variable must be specified but not both"
+msgstr ""
+"Konieczne jest podanie znaku ograniczenia lub zmiennej znaku ograniczenia, ale nie obydwu"
+
+#: STATS_LP.R:127
+msgid "Cannot specify both ALLINTEGERS=YES and ALLBINARY=YES"
+msgstr ""
+"Nie można określić jednocześnie ALLINTEGERS=YES ani ALLBINARY=YES"
+
+#: STATS_LP.R:131
+msgid "Cannot specify both a list of integer variables and ALLINTEGER=YES"
+msgstr ""
+"Nie można określić jednocześnie listy zmiennych i ALLINTEGER=YES"
+
+#: STATS_LP.R:138
+msgid "Cannot specify both a list of binary variables and ALLBINARY=YES"
+msgstr ""
+"Nie można określić jednocześnie listy zmiennych binarnych i ALLBINARY=YES"
+
+#: STATS_LP.R:159
+msgid "The number of objective coefficients differs from the number of constraint variables"
+msgstr ""
+"Liczba współczynników celu różni się od liczby zmiennych ograniczenia"
+
+#: STATS_LP.R:174
+msgid "An invalid constraint direction variable value was found.  Values must be <=, =, or >=."
+msgstr ""
+"Napotkano niepoprawną wartość zmiennej znaku ograniczenia. Wymagana jest wartość <=, = albo >=."
+
+#: STATS_LP.R:188
+msgid "A variable specified as type integer does not appear in the list of constraint variables"
+msgstr ""
+"Zmienna określona jako zmienna całkowitoliczbowa nie pojawia się na liście zmiennych ograniczeń"
+
+#: STATS_LP.R:195
+msgid "A variable specified as type binary does not appear in the list of constraint variables"
+msgstr ""
+"Zmienna określona jako zmienna binarna nie pojawia się na liście zmiennych ograniczeń"
+
+#: STATS_LP.R:262
+msgid "The objbounds statement is missing one or more elements"
+msgstr ""
+"W instrukcji objbounds brak jednego lub więcej elementów"
+
+#: STATS_LP.R:269
+msgid "A variable was specified on OBJBOUNDS that is  not in the model: %s"
+msgstr ""
+"W instrukcji OBJBOUNDS podano zmienną, która nie zawiera się w modelu: %s"
+
+#: STATS_LP.R:288
+msgid "optimal solution found"
+msgstr ""
+"znaleziono optymalne rozwiązanie"
+
+#: STATS_LP.R:289
+msgid "the model is sub-optimal"
+msgstr ""
+"model jest suboptymalny"
+
+#: STATS_LP.R:290
+msgid "the model is infeasible"
+msgstr ""
+"model jest niemożliwy do wykonania"
+
+#: STATS_LP.R:291
+msgid "the model is unbounded"
+msgstr ""
+"dla modelu brak więzów"
+
+#: STATS_LP.R:292
+msgid "the model is degenerate"
+msgstr ""
+"model jest zdegenerowany"
+
+#: STATS_LP.R:293
+msgid "numerical failure encountered"
+msgstr ""
+"napotkano błąd liczbowy"
+
+#: STATS_LP.R:294
+msgid "process aborted"
+msgstr ""
+"proces przerwano"
+
+#: STATS_LP.R:295
+msgid "timeout"
+msgstr ""
+"przekroczenie limitu czasu"
+
+#: STATS_LP.R:297
+msgid "the model was solved by presolve"
+msgstr ""
+"model został rozwiązany w rozwiązaniu wstępnym"
+
+#: STATS_LP.R:305
+msgid "Computations done by R package lpSolve"
+msgstr ""
+"Obliczenia wykonane w pakiecie R, lpSolve"
+
+#: STATS_LP.R:307
+msgid "Objective Function Optimal Value"
+msgstr ""
+"Optymalna wartość funkcji celu"
+
+#: STATS_LP.R:308
+msgid "Solution Status"
+msgstr ""
+"Status rozwiązania"
+
+#: STATS_LP.R:309
+msgid "Objective Direction"
+msgstr ""
+"Znak funkcji celu"
+
+#: STATS_LP.R:310
+msgid "Constraint Variables"
+msgstr ""
+"Zmienne ograniczeń"
+
+#: STATS_LP.R:311
+msgid "Bounds"
+msgstr ""
+"Granice"
+
+#: STATS_LP.R:312
+msgid "Constraint Direction"
+msgstr ""
+"Znak ograniczenia"
+
+#: STATS_LP.R:313
+msgid "Total Iterations"
+msgstr ""
+"Łącznie iteracji"
+
+#: STATS_LP.R:314
+msgid "Iterations Used for Relaxed Solution"
+msgstr ""
+"Iteracje użyte w zrelaksowanym rozwiązaniu"
+
+#: STATS_LP.R:315
+msgid "Iterations Used for Branch and Bound"
+msgstr ""
+"Iteracje użyte w oddziale i granicy"
+
+#: STATS_LP.R:316
+msgid "Tolerance"
+msgstr ""
+"Tolerancja"
+
+#: STATS_LP.R:317
+msgid "Treat As Zero"
+msgstr ""
+"Traktuj jako wartości zerowe"
+
+#: STATS_LP.R:330
+msgid "minimize"
+msgstr ""
+"minimalizuj"
+
+#: STATS_LP.R:330
+msgid "maximize"
+msgstr ""
+"maksymalizuj"
+
+#: STATS_LP.R:335
+#: STATS_LP.R:336
+msgid "--NA--"
+msgstr ""
+"--Nie dotyczy--"
+
+#: STATS_LP.R:342
+msgid "Settings and Results Summary"
+msgstr ""
+"Podsumowanie ustawień i statystyk"
+
+#: STATS_LP.R:343
+#: STATS_LP.R:343
+msgid "Summary"
+msgstr ""
+"Podsumowanie"
+
+#: STATS_LP.R:348
+msgid "None"
+msgstr ""
+"Brak"
+
+#: STATS_LP.R:354
+msgid "Objective Function Coefficients and Bounds"
+msgstr ""
+"Współczynniki i granice funkcji celu"
+
+#: STATS_LP.R:354
+msgid "Coefficients"
+msgstr ""
+"Współczynniki"
+
+#: STATS_LP.R:355
+msgid "Variable Type"
+msgstr ""
+"Typ zmiennej"
+
+#: STATS_LP.R:355
+#: STATS_LP.R:391
+msgid "Lower Bound"
+msgstr ""
+"Dolna wartość graniczna"
+
+#: STATS_LP.R:355
+#: STATS_LP.R:391
+msgid "Upper Bound"
+msgstr ""
+"Górna wartość graniczna"
+
+#: STATS_LP.R:356
+msgid "Objective Function"
+msgstr ""
+"Funkcja celu"
+
+#: STATS_LP.R:361
+msgid "Variables at Optimum"
+msgstr ""
+"Zmienne o wartości optymalnej"
+
+#: STATS_LP.R:362
+msgid "Values"
+msgstr ""
+"Wartości"
+
+#: STATS_LP.R:362
+msgid "Optimum"
+msgstr ""
+"Wartość optymalna"
+
+#: STATS_LP.R:368
+msgid "From"
+msgstr ""
+"Od"
+
+#: STATS_LP.R:368
+msgid "To"
+msgstr ""
+"Do"
+
+#: STATS_LP.R:369
+#: STATS_LP.R:371
+msgid "Objective Function Sensitivity"
+msgstr ""
+"Czułość funkcji celu"
+
+#: STATS_LP.R:372
+msgid "Rows show the range within which that objective function coefficient can vary without changing the solution.  However, they do not account for any integer constraints. "
+msgstr ""
+"Wiersze wskazują zakres, w ramach którego ten współczynnik funkcji celu może wahać się bez konieczności zmiany rozwiązania. Nie uwzględniają one jednak żadnego z ograniczeń całkowitoliczbowych."
+
+#: STATS_LP.R:388
+msgid "Constraints at Optimum"
+msgstr ""
+"Ograniczenia o wartości optymalnej"
+
+#: STATS_LP.R:389
+msgid "Actual"
+msgstr ""
+"Rzeczywista"
+
+#: STATS_LP.R:389
+msgid "Direction"
+msgstr ""
+"Kierunek"
+
+#: STATS_LP.R:389
+msgid "Bound"
+msgstr ""
+"Granica"
+
+#: STATS_LP.R:390
+msgid "Difference"
+msgstr ""
+"Różnice"
+
+#: STATS_LP.R:390
+msgid "Shadow Price"
+msgstr ""
+"Shadow Price"
+
+#: STATS_LP.R:393
+msgid "Lower and upper bounds show the range within which the bound can vary without changing the solution.  However, they do not account for any integer constraints. "
+msgstr ""
+"Górna i dolna granica wskazuje zakres, w ramach którego ta granica może wahać się bez konieczności zmiany rozwiązania. Nie uwzględniają one jednak żadnego z ograniczeń całkowitoliczbowych."
+
+#: STATS_LP.R:394
+msgid "Constraint Results"
+msgstr ""
+"Wyniki dla ograniczenia"
+
+#: STATS_LP.R:455
+msgid "End of procedure"
+msgstr ""
+"Koniec procedury"
+
+#: STATS_LP.R:482
+msgid "Message Number"
+msgstr ""
+"Numer komunikatu"
+
+
