@@ -1,0 +1,342 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_LP.R:113
+#: STATS_LP.R:286
+msgid "Linear Programming"
+msgstr ""
+"线性规划"
+
+#: STATS_LP.R:114
+msgid "Linear Programming: Warnings"
+msgstr ""
+"线性规划：警告"
+
+#: STATS_LP.R:119
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"需要 R %s 程序包，但未能将其装入。"
+
+#: STATS_LP.R:124
+msgid "Either a constraint direction or a constraint direction variable must be specified but not both"
+msgstr ""
+"必须指定约束方向或约束方向变量，但不得同时指定这两者"
+
+#: STATS_LP.R:127
+msgid "Cannot specify both ALLINTEGERS=YES and ALLBINARY=YES"
+msgstr ""
+"不能同时指定 ALLINTEGERS=YES 和 ALLBINARY=YES"
+
+#: STATS_LP.R:131
+msgid "Cannot specify both a list of integer variables and ALLINTEGER=YES"
+msgstr ""
+"不能同时指定整数变量列表和 ALLINTEGER=YES"
+
+#: STATS_LP.R:138
+msgid "Cannot specify both a list of binary variables and ALLBINARY=YES"
+msgstr ""
+"不能同时指定二进制变量列表和 ALLBINARY=YES"
+
+#: STATS_LP.R:159
+msgid "The number of objective coefficients differs from the number of constraint variables"
+msgstr ""
+"目标系数的数目与约束变量的数目不同"
+
+#: STATS_LP.R:174
+msgid "An invalid constraint direction variable value was found.  Values must be <=, =, or >=."
+msgstr ""
+"找到无效的约束方向变量值。值必须为 <=、= 或 >=。"
+
+#: STATS_LP.R:188
+msgid "A variable specified as type integer does not appear in the list of constraint variables"
+msgstr ""
+"指定为整数类型的变量未显示在约束变量列表中"
+
+#: STATS_LP.R:195
+msgid "A variable specified as type binary does not appear in the list of constraint variables"
+msgstr ""
+"指定为二进制类型的变量未显示在约束变量列表中"
+
+#: STATS_LP.R:262
+msgid "The objbounds statement is missing one or more elements"
+msgstr ""
+"objbounds 语句缺少一个或多个元素"
+
+#: STATS_LP.R:269
+msgid "A variable was specified on OBJBOUNDS that is  not in the model: %s"
+msgstr ""
+"OBJBOUNDS 中指定的变量不在模型中：%s"
+
+#: STATS_LP.R:288
+msgid "optimal solution found"
+msgstr ""
+"已找到最优的解。"
+
+#: STATS_LP.R:289
+msgid "the model is sub-optimal"
+msgstr ""
+"此模型是次佳模型"
+
+#: STATS_LP.R:290
+msgid "the model is infeasible"
+msgstr ""
+"此模型不可行"
+
+#: STATS_LP.R:291
+msgid "the model is unbounded"
+msgstr ""
+"此模型不受限制"
+
+#: STATS_LP.R:292
+msgid "the model is degenerate"
+msgstr ""
+"此模型已退化"
+
+#: STATS_LP.R:293
+msgid "numerical failure encountered"
+msgstr ""
+"遇到数字故障"
+
+#: STATS_LP.R:294
+msgid "process aborted"
+msgstr ""
+"过程已中止"
+
+#: STATS_LP.R:295
+msgid "timeout"
+msgstr ""
+"超时"
+
+#: STATS_LP.R:297
+msgid "the model was solved by presolve"
+msgstr ""
+"presolve 已解析模型"
+
+#: STATS_LP.R:305
+msgid "Computations done by R package lpSolve"
+msgstr ""
+"R 程序包 lpSolve 已完成计算"
+
+#: STATS_LP.R:307
+msgid "Objective Function Optimal Value"
+msgstr ""
+"目标函数最佳值"
+
+#: STATS_LP.R:308
+msgid "Solution Status"
+msgstr ""
+"解状态"
+
+#: STATS_LP.R:309
+msgid "Objective Direction"
+msgstr ""
+"目标方向"
+
+#: STATS_LP.R:310
+msgid "Constraint Variables"
+msgstr ""
+"约束变量"
+
+#: STATS_LP.R:311
+msgid "Bounds"
+msgstr ""
+"界限"
+
+#: STATS_LP.R:312
+msgid "Constraint Direction"
+msgstr ""
+"约束方向"
+
+#: STATS_LP.R:313
+msgid "Total Iterations"
+msgstr ""
+"总迭代次数"
+
+#: STATS_LP.R:314
+msgid "Iterations Used for Relaxed Solution"
+msgstr ""
+"用于不严格求解的迭代"
+
+#: STATS_LP.R:315
+msgid "Iterations Used for Branch and Bound"
+msgstr ""
+"用于分支和界限的迭代"
+
+#: STATS_LP.R:316
+msgid "Tolerance"
+msgstr ""
+"容差"
+
+#: STATS_LP.R:317
+msgid "Treat As Zero"
+msgstr ""
+"视为零"
+
+#: STATS_LP.R:330
+msgid "minimize"
+msgstr ""
+"最小化"
+
+#: STATS_LP.R:330
+msgid "maximize"
+msgstr ""
+"最大化"
+
+#: STATS_LP.R:335
+#: STATS_LP.R:336
+msgid "--NA--"
+msgstr ""
+"--不适用--"
+
+#: STATS_LP.R:342
+msgid "Settings and Results Summary"
+msgstr ""
+"设置和结果摘要"
+
+#: STATS_LP.R:343
+#: STATS_LP.R:343
+msgid "Summary"
+msgstr ""
+"摘要"
+
+#: STATS_LP.R:348
+msgid "None"
+msgstr ""
+"无"
+
+#: STATS_LP.R:354
+msgid "Objective Function Coefficients and Bounds"
+msgstr ""
+"目标函数系数和界限"
+
+#: STATS_LP.R:354
+msgid "Coefficients"
+msgstr ""
+"系数"
+
+#: STATS_LP.R:355
+msgid "Variable Type"
+msgstr ""
+"变量类型"
+
+#: STATS_LP.R:355
+#: STATS_LP.R:391
+msgid "Lower Bound"
+msgstr ""
+"下限"
+
+#: STATS_LP.R:355
+#: STATS_LP.R:391
+msgid "Upper Bound"
+msgstr ""
+"上限"
+
+#: STATS_LP.R:356
+msgid "Objective Function"
+msgstr ""
+"目标函数"
+
+#: STATS_LP.R:361
+msgid "Variables at Optimum"
+msgstr ""
+"最佳变量"
+
+#: STATS_LP.R:362
+msgid "Values"
+msgstr ""
+"值"
+
+#: STATS_LP.R:362
+msgid "Optimum"
+msgstr ""
+"最优"
+
+#: STATS_LP.R:368
+msgid "From"
+msgstr ""
+"从"
+
+#: STATS_LP.R:368
+msgid "To"
+msgstr ""
+"到"
+
+#: STATS_LP.R:369
+#: STATS_LP.R:371
+msgid "Objective Function Sensitivity"
+msgstr ""
+"目标函数灵敏度"
+
+#: STATS_LP.R:372
+msgid "Rows show the range within which that objective function coefficient can vary without changing the solution.  However, they do not account for any integer constraints. "
+msgstr ""
+"行显示了一个范围，目标函数系数可以在此范围变动而不更改解。但是，它们并不用作任何整数约束。"
+
+#: STATS_LP.R:388
+msgid "Constraints at Optimum"
+msgstr ""
+"最佳约束"
+
+#: STATS_LP.R:389
+msgid "Actual"
+msgstr ""
+"实际"
+
+#: STATS_LP.R:389
+msgid "Direction"
+msgstr ""
+"方向"
+
+#: STATS_LP.R:389
+msgid "Bound"
+msgstr ""
+"界限"
+
+#: STATS_LP.R:390
+msgid "Difference"
+msgstr ""
+"差异"
+
+#: STATS_LP.R:390
+msgid "Shadow Price"
+msgstr ""
+"影子价格"
+
+#: STATS_LP.R:393
+msgid "Lower and upper bounds show the range within which the bound can vary without changing the solution.  However, they do not account for any integer constraints. "
+msgstr ""
+"下限和上限显示了一个范围，界限可以在此范围变动而不更改解。但是，它们并不用作任何整数约束。"
+
+#: STATS_LP.R:394
+msgid "Constraint Results"
+msgstr ""
+"约束结果"
+
+#: STATS_LP.R:455
+msgid "End of procedure"
+msgstr ""
+"过程结束"
+
+#: STATS_LP.R:482
+msgid "Message Number"
+msgstr ""
+"消息号"
+
+
