@@ -1,0 +1,279 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_LP.R:113
+#: STATS_LP.R:286
+msgid "Linear Programming"
+msgstr ""
+
+#: STATS_LP.R:114
+msgid "Linear Programming: Warnings"
+msgstr ""
+
+#: STATS_LP.R:119
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+
+#: STATS_LP.R:124
+msgid "Either a constraint direction or a constraint direction variable must be specified but not both"
+msgstr ""
+
+#: STATS_LP.R:127
+msgid "Cannot specify both ALLINTEGERS=YES and ALLBINARY=YES"
+msgstr ""
+
+#: STATS_LP.R:131
+msgid "Cannot specify both a list of integer variables and ALLINTEGER=YES"
+msgstr ""
+
+#: STATS_LP.R:138
+msgid "Cannot specify both a list of binary variables and ALLBINARY=YES"
+msgstr ""
+
+#: STATS_LP.R:159
+msgid "The number of objective coefficients differs from the number of constraint variables"
+msgstr ""
+
+#: STATS_LP.R:174
+msgid "An invalid constraint direction variable value was found.  Values must be <=, =, or >=."
+msgstr ""
+
+#: STATS_LP.R:188
+msgid "A variable specified as type integer does not appear in the list of constraint variables"
+msgstr ""
+
+#: STATS_LP.R:195
+msgid "A variable specified as type binary does not appear in the list of constraint variables"
+msgstr ""
+
+#: STATS_LP.R:262
+msgid "The objbounds statement is missing one or more elements"
+msgstr ""
+
+#: STATS_LP.R:269
+msgid "A variable was specified on OBJBOUNDS that is  not in the model: %s"
+msgstr ""
+
+#: STATS_LP.R:288
+msgid "optimal solution found"
+msgstr ""
+
+#: STATS_LP.R:289
+msgid "the model is sub-optimal"
+msgstr ""
+
+#: STATS_LP.R:290
+msgid "the model is infeasible"
+msgstr ""
+
+#: STATS_LP.R:291
+msgid "the model is unbounded"
+msgstr ""
+
+#: STATS_LP.R:292
+msgid "the model is degenerate"
+msgstr ""
+
+#: STATS_LP.R:293
+msgid "numerical failure encountered"
+msgstr ""
+
+#: STATS_LP.R:294
+msgid "process aborted"
+msgstr ""
+
+#: STATS_LP.R:295
+msgid "timeout"
+msgstr ""
+
+#: STATS_LP.R:297
+msgid "the model was solved by presolve"
+msgstr ""
+
+#: STATS_LP.R:305
+msgid "Computations done by R package lpSolve"
+msgstr ""
+
+#: STATS_LP.R:307
+msgid "Objective Function Optimal Value"
+msgstr ""
+
+#: STATS_LP.R:308
+msgid "Solution Status"
+msgstr ""
+
+#: STATS_LP.R:309
+msgid "Objective Direction"
+msgstr ""
+
+#: STATS_LP.R:310
+msgid "Constraint Variables"
+msgstr ""
+
+#: STATS_LP.R:311
+msgid "Bounds"
+msgstr ""
+
+#: STATS_LP.R:312
+msgid "Constraint Direction"
+msgstr ""
+
+#: STATS_LP.R:313
+msgid "Total Iterations"
+msgstr ""
+
+#: STATS_LP.R:314
+msgid "Iterations Used for Relaxed Solution"
+msgstr ""
+
+#: STATS_LP.R:315
+msgid "Iterations Used for Branch and Bound"
+msgstr ""
+
+#: STATS_LP.R:316
+msgid "Tolerance"
+msgstr ""
+
+#: STATS_LP.R:317
+msgid "Treat As Zero"
+msgstr ""
+
+#: STATS_LP.R:330
+msgid "minimize"
+msgstr ""
+
+#: STATS_LP.R:330
+msgid "maximize"
+msgstr ""
+
+#: STATS_LP.R:335
+#: STATS_LP.R:336
+msgid "--NA--"
+msgstr ""
+
+#: STATS_LP.R:342
+msgid "Settings and Results Summary"
+msgstr ""
+
+#: STATS_LP.R:343
+#: STATS_LP.R:343
+msgid "Summary"
+msgstr ""
+
+#: STATS_LP.R:348
+msgid "None"
+msgstr ""
+
+#: STATS_LP.R:354
+msgid "Objective Function Coefficients and Bounds"
+msgstr ""
+
+#: STATS_LP.R:354
+msgid "Coefficients"
+msgstr ""
+
+#: STATS_LP.R:355
+msgid "Variable Type"
+msgstr ""
+
+#: STATS_LP.R:355
+#: STATS_LP.R:391
+msgid "Lower Bound"
+msgstr ""
+
+#: STATS_LP.R:355
+#: STATS_LP.R:391
+msgid "Upper Bound"
+msgstr ""
+
+#: STATS_LP.R:356
+msgid "Objective Function"
+msgstr ""
+
+#: STATS_LP.R:361
+msgid "Variables at Optimum"
+msgstr ""
+
+#: STATS_LP.R:362
+msgid "Values"
+msgstr ""
+
+#: STATS_LP.R:362
+msgid "Optimum"
+msgstr ""
+
+#: STATS_LP.R:368
+msgid "From"
+msgstr ""
+
+#: STATS_LP.R:368
+msgid "To"
+msgstr ""
+
+#: STATS_LP.R:369
+#: STATS_LP.R:371
+msgid "Objective Function Sensitivity"
+msgstr ""
+
+#: STATS_LP.R:372
+msgid "Rows show the range within which that objective function coefficient can vary without changing the solution.  However, they do not account for any integer constraints. "
+msgstr ""
+
+#: STATS_LP.R:388
+msgid "Constraints at Optimum"
+msgstr ""
+
+#: STATS_LP.R:389
+msgid "Actual"
+msgstr ""
+
+#: STATS_LP.R:389
+msgid "Direction"
+msgstr ""
+
+#: STATS_LP.R:389
+msgid "Bound"
+msgstr ""
+
+#: STATS_LP.R:390
+msgid "Difference"
+msgstr ""
+
+#: STATS_LP.R:390
+msgid "Shadow Price"
+msgstr ""
+
+#: STATS_LP.R:393
+msgid "Lower and upper bounds show the range within which the bound can vary without changing the solution.  However, they do not account for any integer constraints. "
+msgstr ""
+
+#: STATS_LP.R:394
+msgid "Constraint Results"
+msgstr ""
+
+#: STATS_LP.R:455
+msgid "End of procedure"
+msgstr ""
+
+#: STATS_LP.R:482
+msgid "Message Number"
+msgstr ""
+
+
