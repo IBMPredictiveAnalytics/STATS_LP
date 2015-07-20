@@ -1,0 +1,18 @@
+Name: STATS_LP
+Dialog-Specs: STATS_LP.spd
+Command-Specs: STATS_LP.xml
+Code-Files: STATS_LP.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Solve linear and integer programming problems
+Description: This package solves linear and integer programming proble
+ ms and mixed problems.  Bounds can be imposed on the objective functi
+ on variables.  It can even be used to solve systems of linear equatio
+ ns by using all equality constraints.
+Author: JKP, IBM SPSS
+Version: 2.0.5
+Product-Version: 19
+Date: 6/21/2013
+Categories: mathematical programming
+Plugins: Python,R
+R-Packages: lpSolveAPI
+Translation-Catalogues: lang
