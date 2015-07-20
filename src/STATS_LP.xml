@@ -1,0 +1,44 @@
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- IBM SPSS Products: Statistics Common                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 1989, 2013                                -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM       -->
+<!-- Corp.                                                             -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Jon Peck (SPSS Inc.) -->
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www-01.ibm.com/software/analytics/spss/xml/extension-1.0.xsd" Name="STATS LP" Language="R">
+	<Subcommand Name="">
+		<Parameter Name="OBJECTIVE" ParameterType="NumberList"/>
+		<Parameter Name="OBJECTIVEDIR" ParameterType="Keyword"/>
+		<Parameter Name="CBOUNDS" ParameterType="VariableName"/>
+		<Parameter Name="CBOUNDSLBLS" ParameterType="VariableName"/>
+		<Parameter Name="CONSTRAINTS" ParameterType="VariableNameList"/>
+		<Parameter Name="CONSTRAINTDIR" ParameterType="Keyword">
+			<EnumValue Name="LE"/>
+			<EnumValue Name="GE"/>
+			<EnumValue Name="EQ"/>
+		</Parameter>
+		<Parameter Name="CONSTRAINTDIRVAR" ParameterType="VariableName"/>
+		<Parameter Name="INTEGERVARS" ParameterType="VariableNameList"/>
+		<Parameter Name="ALLINTEGER" ParameterType="Keyword"/>
+		<Parameter Name="BINARYVARS" ParameterType="VariableNameList"/>
+		<Parameter Name="ALLBINARY" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="OPTIONS">
+		<Parameter Name="MAXITER" ParameterType="Integer"/>
+		<Parameter Name="TOLERANCE" ParameterType="Number"/>
+		<Parameter Name="ASZERO" ParameterType="Number"/>
+	</Subcommand>
+	<Subcommand Name="OUTPUT">
+		<Parameter Name="CONSTRAINTS" ParameterType="DatasetName"/>
+	</Subcommand>
+	<Subcommand Name="OBJBOUNDS" IsArbitrary="True" Occurrence="Optional">
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
