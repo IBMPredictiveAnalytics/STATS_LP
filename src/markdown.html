@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS LP Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+</head>
+
+<body>
+<h1>STATS LP Extension Command</h1>
+<p>Solve linear and integer programming problems</p>
+<div class="syntax">
+<p>STATS LP OBJECTIVE = <em>list of objective function values</em><sup>&#42;</sup><br/>
+CBOUNDS = <em>bounds variable</em><sup>&#42;</sup> CBOUNDSLBLS = <em>bounds labels</em>
+CONSTRAINTS = <em>list of constraint variables</em><sup>&#42;</sup><br/>
+CONSTRAINTDIR = LE or EQ or GE CONSTRAINTDIRVAR = <em>variable</em><br/>
+INTEGERVARS = <em>variable list</em> BINARYVARS = <em>variable list</em></p>
+
+<p>/OBJBOUNDS <em>objective variable lower and upper bounds</em></p>
+
+<p>/OPTIONS MAXITER = <em>integer</em> TOLERANCE = <em>positive number</em>
+ASZERO = <em>positive number</em></p>
+
+<p>/OUTPUT CONSTRAINTS = YES* or NO</p>
+
+<p>/HELP</p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS LP /HELP prints this help and does nothing else.</p>
+
+<pre class="example"><code>data list list/x1 x2 x3 b(4F8.2) blbls(a10).
+begin data.
+.7 .35 0 40 &#39;first&#39;
+1.5 1 3 90  &#39;second&#39;
+50 12.5 20 2500 &#39;third&#39;
+end data.
+dataset name lp.
+stats lp objective=-1800 -600 -600 cbounds=b cboundslbls=blbls
+constraints=x1 x2 x3 constraintdir=le.
+</code></pre>
+
+<p><strong>OBJECTIVE</strong> specifies the coefficients for the objective
+function.  They must be listed in the same order as the 
+names listed for constraint variables.  There must be one value
+for each variable listed under CONSTRAINTS.</p>
+
+<p><strong>CONSTRAINTS</strong> lists the variables holding the constraint
+values.</p>
+
+<p><strong>CBOUNDS</strong> specifies the variable holding the bounds for
+each constraint</p>
+
+<p><strong>CONSTRAINTDIR</strong> or <strong>CONSTRAINTDIRVAR</strong> specifies the type of
+the constraints.  CONSTRAINTDIR can be LE, EQ, or GE indicating
+that all constraints are &lt;=, =, or &gt;= the bound.  Alternatively,
+CONSTRAINTDIRVAR specifies a variable whose value for each
+case (constraint) is &#39;&lt;=&#39;, &#39;=&#39;, or &#39;&gt;=&#39;, allows the directions to differ.<br/>
+(There is no difference between &lt; and &lt;=.)<br/>
+Either CONSTRAINTDIR or CONSTRAINTDIRVAR must be specified
+but not both.</p>
+
+<p><strong>INTEGERVARS</strong> and <strong>BINARYVARS</strong> can specify objective variables
+whose values must be integer or 0,1, respectively.  The variables
+must also appear in the CONSTRAINTS list.  A variable should
+not be included in both lists.  </p>
+
+<h2>OBJBOUNDS</h2>
+
+<p>This subcommand is used to specify lower and upper bounds
+on the objective variables.  Each entry should have the
+form</p>
+
+<pre><code>variable name lower bound upperbound
+</code></pre>
+
+<p>, e.g., <code>X 5 10</code>.<br/>
+A value written as a period means that that bound
+is not specified.  For example,
+<code>X . 10</code>
+means an upper bound of 10 for X but no lower bound is
+specified.
+The name-value-value sequence can be repeated as many time as necessary.
+Specifying a variable as integer and bounds of 0 and 1 is equivalent
+to specifying it as binary.  Changing the bounds on a binary variable
+is equivalent to specifying it as integer.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>MAXITER</strong> specifies the maximum number of iterations and
+defaults to 1000.</p>
+
+<p><strong>TOLERANCE</strong> specifies how much a constraint can be
+violated before declaring failure.  It defaults to 10<sup>&#42;&#42;-6.</sup></p>
+
+<p><strong>ASZERO</strong> specifies a value below which values are set to
+exactly zero.  It defaults to 10<sup>&#42;&#42;-9.</sup></p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>CONSTRAINTS</strong> specifies whether to print details about the constraints
+at the solution.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
