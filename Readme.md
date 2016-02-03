@@ -1,11 +1,11 @@
 # STATS_LP
 ## Solve linear and integer programming problems
- This package solves linear and integer programming proble
+ This package solves linear and integer programming problems and mixed problems.  Bounds can be imposed on the objective function variables.  It can even be used to solve systems of linear equations by using all equality constraints.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 19 or later
+- IBM SPSS Statistics 19 or later, the corresponding IBM SPSS Statistics-Integration Plug-in for Python and the IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
