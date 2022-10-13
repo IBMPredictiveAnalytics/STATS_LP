@@ -1,4 +1,5 @@
 Name: STATS_LP
+Display-Name: Linear and Integer Programming Problem Solver
 Dialog-Specs: STATS_LP.spd
 Command-Specs: STATS_LP.xml
 Code-Files: STATS_LP.R
